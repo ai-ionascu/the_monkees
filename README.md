@@ -15,3 +15,5 @@
     4. Shop
     5. Contact form page (event planner)
 - social links will be included  in the left side of the section area, on each page;
+ 
+##### 1. Home page created
