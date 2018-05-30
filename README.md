@@ -16,4 +16,8 @@
     5. Contact form page (event planner)
 - social links will be included  in the left side of the section area, on each page;
  
-##### 1. Home page created
+##### 1. Home page created:
+- responsive transparent navigation bar with burger button (will be used on each page);
+- main section created, with a background picture; button in the center linked to band's songs;
+- footer with subscription and contact info (will be used on each page);
+- font family configured and some styling added;
