@@ -4,8 +4,9 @@ body{
     font-family: "Cuprum";
 }
 
-/*-----------Navigation----------------*/
+/*------------------------------------------------------------------------------Home page----------------------------------------------------------------------------------*/
 
+/*-----------Navigation----------------*/
 
 .logo a img{
     width: 60%;
@@ -163,5 +164,132 @@ body{
     color: #a23c2e;
 }
 
-/*-----------Band page----------------*/
+/*------------------------------------------------------------------------------Band page----------------------------------------------------------------------------------*/
 
+/*-----------Navigation----------------*/
+
+.band-navigation-with-bg{
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #fffeb3;
+    padding: 0;
+    border-bottom: 5px solid #cf2e2b;
+}
+
+/*-----------Footer----------------*/
+
+.base-info-with-bg{
+    width: 100%;
+    max-height: 20vh;
+    margin-bottom: 0;
+    background-color: #cf2e2b;
+    padding: 0;
+    border-top: 5px solid #fffeb3;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*-----------Section----------------*/
+
+.band-history, .band-members{
+    margin-top: 20%;
+}
+
+@media (min-width: 576px) {
+  .band-history, .band-members{
+    margin-top: 10%;
+  }
+}
+
+.band-photo{
+    height: auto;
+    overflow: auto;
+}
+
+.band-photo img {
+    display: block;
+    width: 70%;
+    margin:0 auto 10%;
+    padding: 2%;
+    border: 1px solid rgb(89, 107, 143);
+    border-radius: 5%;
+}
+
+@media (min-width: 576px) {
+  .band-photo img {
+    max-width: 300px;
+    height:auto; 
+    margin:0 5% 5%;
+    float: left;
+    clear: left;
+    }
+}
+
+.band-photo h1,.band-photo p{
+    clear: right;
+}
+    
+.member-photo-left, .member-photo-right{
+    height: auto;
+    overflow: auto;
+    margin-bottom:5%; 
+}
+
+.member-photo-left img, .member-photo-right img {
+    display: block;
+    width: 70%;
+    margin:0 auto;
+    border-radius: 5%;
+}
+
+@media (min-width: 576px) {
+  .member-photo-right img {
+    max-width: 300px;
+    height: auto; 
+    margin:0 5%;
+    float: right;
+    clear: right;
+    }
+}
+
+@media (min-width: 576px) {
+  .member-photo-left img {
+    max-width: 300px;
+    height: auto; 
+    margin:0 5%;
+    border-radius: 5%;
+    float: left;
+    clear: left;
+    }
+}
+
+#social-links-fixed{
+    position: fixed;
+    top: 33%;
+    left: 0;
+    height: 150px;
+    width: 40px;
+    background-color: rgba(89, 107, 143,0.3);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#social-links-fixed ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#social-links-fixed ul li{
+    text-align: center;
+    margin-top: 33%;
+}
+
+#social-links-fixed ul li a{
+    font-size: larger;
+    color: #fffeb3;
+}
+
+#social-links-fixed ul li a:hover{
+    color: #a23c2e;
+}
