@@ -317,3 +317,41 @@ body{
     margin-left: 5%;
 }
 
+.round-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.shop-photo {
+    background: url('/assets/images/bg_images/cover2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    min-height: 425px;
+}
+
+@media (min-width: 768px) {
+  .shop-photo {
+      min-height: 225px;
+      filter: blur(15px);
+  }
+}
+
+@media (min-width: 992px) {
+  .shop-photo {
+      min-height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+    .round-image img{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+  .shop-photo {
+      min-height: 300px;
+      filter: blur(30px);
+  }
+}
