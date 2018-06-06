@@ -58,7 +58,7 @@ body{
 
 .home-page{
     min-height: 100vh;
-    background: url('/assets/images/bg_images/cover_hp.jpg');
+    background: url('/the_monkees/assets/images/bg_images/cover_hp.jpg');
     background-size: cover;
     justify-content:center;
 }
@@ -400,7 +400,7 @@ body{
 }
 
 .shop-photo {
-    background: url('/assets/images/bg_images/cover2.png');
+    background: url('/the_monkees/assets/images/bg_images/cover2.png');
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(10px);
@@ -440,7 +440,7 @@ body{
 
 .contact-page{
     min-height: 100vh;
-    background: url('/assets/images/bg_images/cover_cp.jpg');
+    background: url('/the_monkees/assets/images/bg_images/cover_cp.jpg');
     background-size: cover;
     justify-content:center;
     overflow-x: hidden;
