@@ -191,14 +191,8 @@ body{
 
 /*-----------Section----------------*/
 
-.band-history, .band-members{
-    margin-top: 20%;
-}
-
-@media (min-width: 576px) {
-  .band-history, .band-members{
-    margin-top: 10%;
-  }
+.band-history{
+    background-color: #fffeb3;
 }
 
 .band-photo{
@@ -353,5 +347,69 @@ body{
   .shop-photo {
       min-height: 300px;
       filter: blur(30px);
+  }
+}
+
+/*------------------------------------------------------------------------------Contact page----------------------------------------------------------------------------------*/
+
+.contact-page{
+    min-height: 100vh;
+    background: url('/assets/images/bg_images/cover_cp.jpg');
+    background-size: cover;
+    justify-content:center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.contact-box{
+    background: rgba(0,0,0,0.5);
+    padding: 5%;
+}
+
+.contact-data, .contact-form{
+    color: #fffeb3;
+}
+
+#contact-form>input{
+    background: transparent;
+    border: none;
+    border-block-end: 2px solid #fffeb3;
+    width: 100%;
+    color: #fffeb3;
+}
+
+.message-box textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #fffeb3;
+    resize: none;
+}
+
+.base-info-contact-page{
+    display: none;
+    width: 100%;
+    max-height: 20vh;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.2);
+    padding: 0;
+    border-top: 5px solid #fffeb3;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .base-info-contact-page{
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .subscr-cp{
+    display: none;
   }
 }
