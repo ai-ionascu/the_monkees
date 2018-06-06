@@ -134,7 +134,7 @@ body{
 /*-----------Social----------------*/
 
 #social-links{
-    position: absolute;
+    position: fixed;
     top: 33%;
     left: 0;
     height: 150px;
@@ -178,6 +178,17 @@ body{
 
 /*-----------Footer----------------*/
 
+.band-page>p{
+    margin: 0;
+    background-color: #cf2e2b;
+    color: #fffeb3; 
+    padding-bottom: 50px;
+}
+
+.band-page>p a{
+    color: #fffeb3; 
+}
+
 .base-info-with-bg{
     width: 100%;
     max-height: 20vh;
@@ -192,7 +203,14 @@ body{
 /*-----------Section----------------*/
 
 .band-history{
-    background-color: #fffeb3;
+    background-color:#fffeb3; 
+    background-repeat: repeat;
+    background-size: auto;
+    color:#cf2e2b; 
+}
+
+.band-members{
+    background-color:#cf2e2b;  
 }
 
 .band-photo{
@@ -204,7 +222,7 @@ body{
     display: block;
     width: 70%;
     margin:0 auto 10%;
-    padding: 2%;
+    box-shadow: 5px 5px 10px;
     border: 1px solid rgb(89, 107, 143);
     border-radius: 5%;
 }
@@ -223,16 +241,22 @@ body{
     clear: right;
 }
     
-.member-photo-left, .member-photo-right{
-    height: auto;
+.member-photo-left{
     overflow: auto;
-    margin-bottom:5%; 
+    background-color: #cf2e2b;
+    color: #fffeb3;
+}
+
+.member-photo-right{
+    overflow: auto;
+    background-color: #cf2e2b;
+    color: #fffeb3;
 }
 
 .member-photo-left img, .member-photo-right img {
     display: block;
     width: 70%;
-    margin:0 auto;
+    margin:5% auto;
     border-radius: 5%;
 }
 
@@ -290,31 +314,89 @@ body{
 
 /*------------------------------------------------------------------------------Podcasts page----------------------------------------------------------------------------------*/
 
+.pod-wrapper{
+    background-color: #fffeb3;
+}
+
+.pod-title{
+    background-color: #fffeb3;
+    color: #cf2e2b;
+    margin-bottom: 1%;
+}
+
+.list-of-media{
+    background-color: #fffeb3;
+    color: #cf2e2b;
+}
+
 .title-line{
     height: 3px;
     margin: 5%;
-    background-color: black;
+    background-color: #cf2e2b;
 }
 
 .media-title h3{
-    background-color: black;
-    color: white;
+    background-color: #cf2e2b;
+    color: #fffeb3;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .media-item{
     margin-top: 10%;
 }
 
+.track-social a{
+    color: #cf2e2b;
+}
+
+.track-social a:hover{
+    text-decoration: none;
+    color: rgba(89, 107, 143,1);
+}
+
+.pod-band-img{
+    text-align: center;
+}
+
+.pod-band-img img{
+    box-shadow: 5px 5px 5px #cf2e2b;
+}
+
+
+.separator{
+    width: 100px;
+    height: 5px;
+    background-color: #cf2e2b;
+    margin: auto;
+}
+
 /*------------------------------------------------------------------------------Shop page----------------------------------------------------------------------------------*/
 
+.shop-page{
+    background-color: #fffeb3;
+    padding: 0;
+}
 .shop-title{
-    margin-left: 5%;
+    background-color: #cf2e2b;
+    color: #fffeb3;
+}
+
+.shopping-features a{
+    color: #cf2e2b;
+}
+
+.shopping-features a:hover{
+    text-decoration: none;
+    color: rgba(89, 107, 143,1);
 }
 
 .round-image img{
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    box-shadow: 0px 0px 100px #cf2e2b;
 }
 
 .shop-photo {
@@ -350,6 +432,10 @@ body{
   }
 }
 
+.album-options{
+    border-bottom: 1px solid #cf2f2c;
+}
+
 /*------------------------------------------------------------------------------Contact page----------------------------------------------------------------------------------*/
 
 .contact-page{
@@ -380,6 +466,7 @@ body{
 
 .message-box textarea{
     width: 100%;
+    height: 100px;
     background: transparent;
     border: none;
     color: #fffeb3;
